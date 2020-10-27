@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "name": "Polo UNICEU",
+      "type": "string"
+    },
+    {
+      "name": "ANO",
+      "type": "integer"
+    },
+    {
+      "name": "IES",
+      "type": "string"
+    },
+    {
+      "name": "Cursos",
+      "type": "string"
+    },
+    {
+      "name": "Modalidade",
+      "type": "string"
+    },
+    {
+      "name": "Vagas",
+      "type": "integer"
+    }
+  ]
+}

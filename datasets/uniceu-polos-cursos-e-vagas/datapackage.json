@@ -1,0 +1,63 @@
+{
+  "profile": "tabular-data-package",
+  "title": "UniCEU - Polos, cursos e vagas",
+  "url": "http://dados.prefeitura.sp.gov.br/pt_PT/dataset/uniceu-polos-cursos-e-vagas",
+  "id": "b0216bc7-dd2e-4e6b-b02c-a259ce2e43bb",
+  "license_id": "cc-zero",                                  
+  "license_title": "Creative Commons CCZero",                                                                                                                                                  
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",                                                                                                                                                                                                                                                                                                                             
+  "maintainer": "SME-COTAC",
+  "author": "SME-COPED",                                                                                                                                                                                                                                                                                                                                                                    
+  "author_email": "",                                                                                                                                                                                                                                                                                                                                                                          
+  "creator_user_id": "af734819-9549-4346-b489-9e8da7886363",                                                                                                                                                                                                                                                                                                                                   
+  "extras": [                                                                                                                                                                                                                                                                                                                                                                                  
+    {                                                                                                                                                                                                                                                                                                                                                                                          
+      "key": "Periodicidade de atualização",                                                                                                                                                                                                                                                                                                                                                   
+      "value": "Anual"                                                                                                                                                                                                                                                                                                                                                                         
+    }                                                                                                                                                                                                                                                                                                                                                                                          
+  ],                                  
+  "resources": [
+    {
+      "path": "http://dados.prefeitura.sp.gov.br/dataset/b0216bc7-dd2e-4e6b-b02c-a259ce2e43bb/resource/74cd4826-f333-49a1-8973-0b6d9ecde509/download/uniceu2019.csv",
+      "profile": "tabular-data-resource",
+      "name": "uniceu2019",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "cp1252",
+      "compression": "no",
+      "compressionPath": "",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "schema": "schema.json"
+    },
+    {
+      "path": "http://dados.prefeitura.sp.gov.br/dataset/b0216bc7-dd2e-4e6b-b02c-a259ce2e43bb/resource/3c11a116-b3a5-429c-8675-ff73a871e000/download/uniceu2018.csv",
+      "profile": "tabular-data-resource",
+      "name": "uniceu2018",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "compression": "no",
+      "compressionPath": "",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "schema": "schema.json"
+    },
+    {
+      "path": "http://dados.prefeitura.sp.gov.br/dataset/b0216bc7-dd2e-4e6b-b02c-a259ce2e43bb/resource/b2ac2d12-89a0-46c6-9f24-626474c03294/download/uniceu2017.csv",
+      "profile": "tabular-data-resource",
+      "name": "uniceu2017",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "compression": "no",
+      "compressionPath": "",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "schema": "schema.json"
+    }
+  ]
+}
