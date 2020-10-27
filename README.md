@@ -6,7 +6,7 @@ Este repositório demonstra como usar o Frictionless Data para validar dados em 
 
 ## Como funciona?
 
-Este repositório contém [Data Packages][data-packages] descrevendo dados hospedados no [Portal de Dados Abertos da Prefeitura de São Paulo][dados-sp]. Eles contém
+Este repositório contém [Data Packages][data-package] descrevendo dados hospedados no [Portal de Dados Abertos da Prefeitura de São Paulo][dados-sp]. Eles contém
 os dicionários de dados, que descrevem o que deve haver em cada coluna.
 
 Uma vez por semana, os dados são validados usando o [frictionless-py][frictionless-py] e o resultado é disponibilizado em https://github.com/vitorbaptista/exemplo-validacao-frictionless-data/actions. Dessa forma, conseguimos monitorar a qualidade dos dados no repositório.
@@ -36,13 +36,7 @@ Por exemplo, se você quiser adicionar o conjunto de dados disponível em http:/
 3. Use `frictionless validate datapackage.json` para conferir que o arquivo está correto
 4. Faça o commit e crie um Pull Request com seu novo Data Package
 
-## O que é o Frictionless Data?
-
-O [Frictionless Data][frictionless] é um conjunto de especificações que permite descrever um conjunto de dados de uma forma legível por máquina usando o padrão [Data Packages][data-package].
-
-Caso a documentação esteja escrita nesse padrão, você pode usar o aplicativo [frictionless][frictionless-py] para validar os dados.
-
-Uma das maiores vantagens em usar esse padrão é validar os dados. A especificação [Table Schema][table-schema] permite descrever 
+A documentação do [Table Schema][table-schema] é útil para você descobrir o que pode ser validado.
 
 [frictionless]: https://frictionlessdata.io/
 [frictionless-py]: https://github.com/frictionlessdata/frictionless-py/
