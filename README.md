@@ -1,4 +1,4 @@
-![Frictionless Validate](https://github.com/vitorbaptista/exemplo-validacao-frictionless-data/workflows/.github/workflows/frictionless-validate.yml/badge.svg)
+![Valida Dados](https://github.com/vitorbaptista/exemplo-validacao-frictionless-data/workflows/Valida%20Data%20Packages/badge.svg)
 
 # Exemplo de validação usando Frictionless Data
 
